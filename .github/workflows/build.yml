@@ -19,8 +19,8 @@ env:
   RETRY: .github/bin/retry
 
 jobs:
-  test:
-    runs-on: ubuntu-latest
+  build:
+    runs-on: ubuntu-20.04
     strategy:
       fail-fast: false
     timeout-minutes: 80
